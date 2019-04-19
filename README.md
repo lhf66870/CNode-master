@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# React 实战项目《cNode》开发
+仿cNode的 react实战开发项目，项目中涉及到 React，Redux，antd 等 技术点的应用，是自己 React + antd 的练手项目
+
+## 技术栈
+- create-react-app
+- react
+- redux
+- react-redux
+- redux-thunk
+- react-router-dom
+- axios
+- antd
+
+## API接口
+这里使用的是 cnodejs 官网给出的数据接口，接口文档地址：https://cnodejs.org/api
+
 ## Available Scripts
 
 In the project directory, you can run:
