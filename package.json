@@ -1,6 +1,7 @@
 {
   "name": "my_code",
   "version": "0.1.0",
+  "homepage": "https://lhf66870.github.io/CNodeMaster",
   "private": true,
   "dependencies": {
     "antd": "^3.15.2",
