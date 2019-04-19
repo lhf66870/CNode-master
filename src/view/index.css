@@ -1,0 +1,126 @@
+.pageWrap{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.wrap{
+    position: relative;
+    max-width: 980px;
+    margin:0 auto;
+}
+.wrap img{
+    max-width: 100%;
+}
+
+#logo{
+    color:#fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.headerDivider{
+    margin:10px 0;
+    height: 44px;
+    float: left;
+}
+
+#nav{
+    margin-left:30px;
+    float: left;
+    background: none;
+    border:none;
+    line-height: 62px;
+}
+#nav a{
+    color:#fff
+}
+#nav .ant-menu-item-selected a{
+    color:#1890ff
+}
+.xsNav{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: auto;
+}
+.main{
+    flex: 1
+}
+.main .wrap{
+    border: 1px solid #ccc;
+    border-top:none;
+    overflow: hidden;
+}
+.indexSlider{
+    border-right:1px solid #ccc;
+    padding-bottom:9999px;
+    margin-bottom: -9999px;
+}
+
+#indexMenu{
+    border-right:none;
+}
+#indexMenu li{
+    margin-right:-1px;
+    transition: none;
+    text-align: center;
+    border-right:3px solid rgba(0, 0, 0, 0);
+}
+#indexXsMenu{
+    display: flex;
+}
+#indexXsMenu li{
+    flex:1;
+    text-align: center;
+    float:none;
+}
+#indexMenu li:hover,#indexMenu .ant-menu-item-selected{
+    border-right-color:#1890ff;
+    background:#e6f7ff 
+}
+
+#indexList{
+    padding:0 10px;
+}
+#indexList p{
+    margin:0
+}
+.userAvatar{
+    width:100px;
+    height:100px;
+}
+.userInfo{
+    text-align:center;
+    padding-bottom:10px;
+    line-height: 24px;
+}
+/* @media all and (max-width: 767px) {
+    #indexMenu{
+        display: flex;
+        border-bottom: 1px solid #ccc;
+    }
+    #indexMenu li{
+        flex:1;
+        margin:0 0 -1px 0;
+        border: none;
+        border-bottom:3px solid rgba(0, 0, 0, 0);
+    }
+    #indexMenu li:hover,#indexMenu .ant-menu-item-selected{
+        border-bottom-color:#1890ff;
+        background:none
+    }
+} */
+.ant-back-top {
+    bottom: 100px;
+}
+.ant-back-top-inner {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #1088e9;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
