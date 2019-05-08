@@ -14,10 +14,10 @@ class Index extends Component {
                     />
                 </Col>
                 <Col md={0} xs={24}>
-                <IndexMenu
-                    id="indexXsMenu"
-                    mode="horizontal"
-                />
+                    <IndexMenu
+                        id="indexXsMenu"
+                        mode="horizontal"
+                    />  
                 </Col>
                 <Col 
                     md={18} 
